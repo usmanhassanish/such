@@ -41,15 +41,16 @@
 	
 	</div>
 	<script type="text/javascript">
-		function displaymenu()
-		{
-			var element = document.getElementById("menu-list");
-			    if (element.style.display === "none") {
-			      element.style.display = "block";
-			    } else {
-			      element.style.display = "none";
-			    }
-		}
+		function displaymenu() {
+    var element = document.getElementById("menu-list");
+    if (element.style.display === "none" || element.style.display === "") {
+        // If it's hidden or not explicitly set, show it
+        element.style.display = "block";
+    } else {
+        // Otherwise, hide it
+        element.style.display = "none";
+    }
+}
 		function closemenu()
 		{
 			var element = document.getElementById("menu-list");
