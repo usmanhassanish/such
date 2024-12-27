@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title></title>
+</head>
+<body>
+	<div class="top-nav">
+		<div id="logo">
+			<a href="index.html">
+			<img style="margin-left: 15px;" src="such.png" height="100%">
+			</a>
+		</div>
+		<div id="nav-bar">
+			<div id="center-nav">
+			<div class="donate">
+				<h3 id="dropdown" style="background-color: dodgerblue;padding: 5px;"><a style="color: black;" href="donate.html">DONATE</a></h3>
+			</div>
+			<div class="menu-bar">
+				<img onclick="displaymenu()" src="menu.png">
+			</div>
+			</div>
+		</div>
+
+		<div id="nav-bar-big">
+			<div style="float: right;">
+			<span id="menu-big">WHO ARE WE | </span>
+			<span id="menu-big">WHAT WE DO | </span>
+			<span id="menu-big">HOW TO HELP</span>
+		</div>
+		</div>
+	</div>
+	<div  id="menu-list">
+		<img onclick="closemenu()" src="close-small.png" >
+		<h2 class="links"><a href="who.html">| WHO ARE WE |</a></h1>
+		<h2 class="links"><a href="#">| WHAT WE DO |</a></h1>
+		<h2 class="links"><a href="#">| HOW TO HELP |</a></h1>
+	</div>
+	
+	</div>
+	<script type="text/javascript">
+		function displaymenu()
+		{
+			var element = document.getElementById("menu-list");
+			    if (element.style.display === "none") {
+			      element.style.display = "block";
+			    } else {
+			      element.style.display = "none";
+			    }
+		}
+		function closemenu()
+		{
+			var element = document.getElementById("menu-list");
+			    if (element.style.display === "block") {
+			      element.style.display = "none";
+			    } else {
+			      element.style.display = "none";
+			    }
+		}
+	</script>
+</body>
+</html>

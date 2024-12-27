@@ -1,0 +1,244 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@media (min-width: 751px)
+{
+	#nav-bar
+	{
+		display: none;
+	}
+	#menu-list
+	{
+		display: none;
+	}
+	.why-def
+	{
+		display: none;
+	}
+	.why-def-big
+	{
+		display: block;
+	}
+	.why
+	{
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+#nav-bar-big
+	{
+	width: 60%;
+	height: 100%;
+	overflow: auto;
+	color: dodgerblue;
+	font-size: 22px;
+	display: flex;
+	align-items: center;
+	font-family: trebuchet ms;
+
+	}
+	
+	
+}
+@media (max-width: 750px)
+{
+	.why-def-big
+	{
+		display: none;
+	}
+	#nav-bar-big
+	{
+		display: none;
+	}
+	
+}
+.top-nav
+{
+	width: 100%;
+	height: 80px;
+	background-color: black;
+}
+button
+{
+	background-color: dodgerblue;
+	color: black;
+	height: 30px;
+	font-weight: bolder;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 4px double black;
+	font-family: arial;
+}
+#logo
+{
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+#nav-bar
+{
+	float: left;
+	width: 60%;
+	height: 100%;
+	overflow: auto;
+}
+.donate
+{
+	float: left;
+	color: purple;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-family: trebuchet ms;
+}
+.menu-bar
+{
+	float: left;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#center-nav
+{
+	float: right;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.home-image
+{
+	width: 100%;
+	height: 250px;
+	background-image: url('-one.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.why
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: -10px;
+	
+	background-color: #000;
+}
+.why-def
+{
+	width: 80%;
+	margin-left: 10%;
+	font-family: georgia;
+	text-align: center;
+	padding-top: 10px;
+	color: dodgerblue;
+}
+.why-def-big
+{
+	width: 80%;
+	margin-left: 10%;
+	font-family: georgia;
+	text-align: center;
+	padding-top: 10px;
+	color: dodgerblue;
+
+}
+
+#menu-list
+{
+	border-top:4px double purple;
+	display: none;
+	text-align: center;
+	background-color: black;
+	color: dodgerblue;
+}
+.links
+{
+	color: dodgerblue;
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+a
+{
+	color: dodgerblue;
+	font-family: trebuchet ms;
+	text-decoration: none;
+}
+.who
+{
+	background-color: black;
+	width: 90%;
+	height: 510px;
+	margin: auto;
+}
+.left 
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+	height: 90%;
+	border: 2px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: dodgerblue;
+}
+.right 
+{
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 5%;
+	height: 90%;
+	border: 2px solid white;
+}
+.bg-who
+{
+	width: 90%;
+	margin-left: 5%;
+	height: 50%;
+	border-radius: 5px;
+	background-image: url('-three.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.who-statement
+
+{
+	color: dodgerblue;
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+	font-family: georgia;
+}
+.vision
+{
+	background-color: black;
+	color: purple;
+	width: 85%;
+	margin-left: 7.5%;
+	height: 270px;
+	text-align: center;
+	font-family: georgia;
+	border-radius: 10px;
+}
+#vision-title
+{
+	height: 20%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+#vision-body
+{
+	display: flex;
+	align-items: center;
+	background-color: dodgerblue;
+	color: black;
+	height: 80%;
+}
