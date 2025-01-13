@@ -4,6 +4,7 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 @media (min-width: 751px)
 {
 	#nav-bar
@@ -27,6 +28,31 @@
 		width: 80%;
 		margin-left: 10%;
 	}
+	.your-role
+	{
+		display: none;
+	}
+	.your-role-big
+	{
+		display: block;
+	}
+	.leadership-small
+	{
+		display: none;
+	}
+	.objectives
+	{
+		display: none;
+	}
+	.who-statement
+	{
+		display: none;
+	}
+	.who-statement-big
+	{
+		display: block;
+	}
+
 	
 #nav-bar-big
 	{
@@ -38,7 +64,6 @@
 	display: flex;
 	align-items: center;
 	font-family: trebuchet ms;
-
 	}
 	
 	
@@ -53,31 +78,116 @@
 	{
 		display: none;
 	}
+	.your-role-big
+	{
+		display: none;
+	}
+	.leadership-objectives
+	{
+		display: none;
+	}
+	.who-statement-big
+	{
+		display: none;
+	}
 	
 }
 .top-nav
 {
 	width: 100%;
 	height: 80px;
-	background-color: black;
+	background-color: white;
+}
+.why-such
+{
+	background-color: white;
+	color: purple;
+	font-family: georgia;
+	text-align: center;
+}
+.your-role-big
+{
+	text-align: center;
+	color: dodgerblue;
+	font-family: georgia;
+	overflow: auto;
+}
+.left-role
+{
+	margin-left: 5%;
+	width: 30%;
+	float: left;
+	height: 300px;
+}
+.mid-role
+{
+	width: 30%;
+	float: left;
+	height: 300px;
+}
+.right-role
+{
+	width: 30%;
+	float: left;
+	height: 300px;
+}
+#width-50
+{
+	width: 70%;
+	margin-left: 15%;
+}
+.align-roles
+{
+	height: 50px;
+}
+.your-role
+{
+	background-color: whitesmoke;
+	color: dodgerblue;
+	text-align: center;
+	font-family: georgia;
+}
+.our-work
+{
+	border: 2px solid dodgerblue;
+	color: dodgerblue;
+	font-family: trebuchet ms;
+	padding: 10px;
+	border-radius: 30px;
 }
 button
 {
 	background-color: dodgerblue;
-	color: black;
+	color: white;
 	height: 30px;
 	font-weight: bolder;
 	border-radius: 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	border: 4px double black;
-	font-family: arial;
+	border: 3px solid dodgerblue;
+	font-family: trebuchet ms;
+	font-size: 20px;
+
 }
 #logo
 {
 	float: left;
 	width: 40%;
 	height: 100%;
+}
+.roles
+{
+	border: 5px double white;
+	border-radius: 50px;
+}
+.leadership-objectives
+{
+	width: 80%;
+	margin-left: 10%;
+	height: 1900px;
+	background-color: whitesmoke;
+	color: dodgerblue;
+	font-family: GEORGIA;
 }
 #nav-bar
 {
@@ -115,7 +225,7 @@ button
 {
 	width: 100%;
 	height: 250px;
-	background-image: url('-one.jpg');
+	background-image: url('home-bg2.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -126,7 +236,7 @@ button
 	margin-left: 5%;
 	margin-top: -10px;
 	
-	background-color: #000;
+	background-color: #fff;
 }
 .why-def
 {
@@ -150,10 +260,10 @@ button
 
 #menu-list
 {
-	border-top:4px double purple;
+	
 	display: none;
 	text-align: center;
-	background-color: black;
+	background-color: whitesmoke;
 	color: dodgerblue;
 }
 .links
@@ -170,10 +280,27 @@ a
 }
 .who
 {
-	background-color: black;
+	background-color: whitesmoke;
 	width: 90%;
-	height: 510px;
 	margin: auto;
+}
+.objectives
+{
+	color: dodgerblue;
+	font-family: georgia;
+}
+.obj-points
+{
+	width: 90%;
+	margin-left: 5%;
+}
+.footer
+{
+	height: 190px;
+	background-color: whitesmoke;
+	color: dodgerblue;
+	font-family: trebuchet ms;
+	text-align: center;
 }
 .left 
 {
@@ -200,9 +327,9 @@ a
 {
 	width: 90%;
 	margin-left: 5%;
-	height: 50%;
+	height: 220px;
 	border-radius: 5px;
-	background-image: url('-three.jpg');
+	background-image: url('home-bg1.jpg');
 	background-position: center;
 	background-size: cover;
 }
@@ -215,13 +342,21 @@ a
 	text-align: center;
 	font-family: georgia;
 }
+.who-statement-big
+
+{
+	color: dodgerblue;
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+	font-family: georgia;
+}
 .vision
 {
-	background-color: black;
+	background-color: ghostwhite;
 	color: purple;
 	width: 85%;
 	margin-left: 7.5%;
-	height: 270px;
 	text-align: center;
 	font-family: georgia;
 	border-radius: 10px;
@@ -235,10 +370,33 @@ a
 	justify-content: center;
 }
 #vision-body
+{   padding: 20px;
+	background-color: whitesmoke;
+	color: dodgerblue;
+}
+.leadership-small
+{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	color: dodgerblue;
+	font-family: GEORGIA;
+	overflow: auto;
+}
+.swipe
 {
 	display: flex;
 	align-items: center;
-	background-color: dodgerblue;
-	color: black;
-	height: 80%;
+	float: left;
+	width: 10%;
+	height: 250px;
+}
+.board
+{
+	width: 80%;
+	float: left;
+}
+#changeImageButton2,#changeImageButton
+{
+	border: none;
 }
